@@ -1,13 +1,17 @@
-# hasaki-kigu-quant Smoke Detector
 
 <p align="center">
   <img src="./logo_kigu.png" width="600" alt="Kigu Logo">
 </p>
 
+# hasaki-kigu-quant Smoke Detector
+
 A bare-metal fire detection system combining two tools from the Rosito Bench ecosystem:
 
 - **[Hasaki 刃先](https://github.com/AlexRosito67/hasaki)** — trains the neural network and exports a standalone C header
+[Hasaki Pro is available here](https://hasaki.lemonsqueezy.com/checkout/buy/1b6ec0ae-10ec-49dc-8c6f-2af146742a33)
+
 - **kigu-quant** — generates a Q1.15 LUT that replaces the `expf()`-based sigmoid
+[Kigu-quant is available here](https://hasaki.lemonsqueezy.com/checkout/buy/a200a9ab-03a4-41d7-9b5f-46da5f150d94)
 
 No TensorFlow. No runtime. No `math.h`. No `expf()`.
 
