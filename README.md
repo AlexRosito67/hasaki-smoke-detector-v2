@@ -48,7 +48,7 @@ One `#include`. One function call. `math.h` removed from the project entirely.
 | `expf()` | 227,292 µs | baseline |
 | `lut_sigmoid_lookup()` | 116,512 µs | **1.95x faster** |
 
-Max error vs `expf()`: **0.000021**  
+Max error vs `expf()`: **0.000021**
 Model accuracy: unchanged (**99.93%** on 7,150 held-out samples)
 
 > On targets without FPU (AVR, Cortex-M0), `expf()` is implemented in software.
@@ -118,4 +118,4 @@ FN rate      : 1 / 3,599 fire events
 
 ---
 
-*Alex Rosito — Burbank, CA*
+*Alex Rosito — Valley Glen, CA*
